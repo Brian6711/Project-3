@@ -149,7 +149,7 @@ if (note >= 68 && note <= 99){
 
 function noteOff(note) {
     console.log(`note:${note} // off`)
-colorM(note, 21)
+colorM(note, Math.floor(Math.random() * 100))
 //background(back)
     }
 
